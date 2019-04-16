@@ -27,7 +27,7 @@ insight.getUnspentUtxos(address, function(error, utxos) {
 		const tx = bitcore.Transaction();
 
 		tx.from(utxos);
-		tx.to(toAddress, 1000); // 0.00001 BTC
+		tx.to(toAddress, 1000);
 		tx.change(address);
 		tx.sign(privatekey);
 
