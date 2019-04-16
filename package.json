@@ -1,0 +1,19 @@
+{
+  "name": "ipnserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.437.0",
+    "bitcore-explorers": "^1.0.1",
+    "bitcore-lib": "^8.2.0",
+    "body-parser": "^1.18.3",
+    "btcpay": "github:btcpayserver/node-btcpay",
+    "express": "^4.16.4"
+  }
+}
